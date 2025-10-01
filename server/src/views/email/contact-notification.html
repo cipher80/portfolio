@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>New Contact</title>
+    <style>
+      body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial; background: #f6f7f9; padding: 24px; }
+      .card { max-width: 540px; margin: auto; background: #fff; border-radius: 12px; overflow: hidden; box-shadow: 0 8px 24px rgba(0,0,0,.08); }
+      .header { background: #0ea5e9; color: #fff; padding: 16px 20px; font-weight: 700; }
+      .content { padding: 20px; color: #111827; }
+      .row { margin: 8px 0; }
+      .label { color: #6b7280; font-size: 12px; text-transform: uppercase; letter-spacing: .06em; }
+      .value { font-size: 16px; font-weight: 600; }
+      .footer { padding: 16px 20px; font-size: 12px; color: #6b7280; background: #f3f4f6; }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="header">New portfolio contact</div>
+      <div class="content">
+        <div class="row"><div class="label">Name</div><div class="value">{{name}}</div></div>
+        <div class="row"><div class="label">Email</div><div class="value">{{email}}</div></div>
+        <div class="row"><div class="label">Mobile</div><div class="value">{{mobile}}</div></div>
+      </div>
+      <div class="footer">Received on {{date}}</div>
+    </div>
+  </body>
+</html>

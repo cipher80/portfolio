@@ -1,0 +1,33 @@
+{
+  "profile": {
+    "name": "Sandeep Tiwari",
+    "title": "Backend-first Node.js Developer",
+    "location": "India",
+    "email": "sandeeptiwari.jim.mca.2021@gmail.com",
+    "phone": "**********",
+    "linkedin": "https://linkedin.com/in/sandeep-tiwari-3b7868261",
+    "github": "https://github.com/cipher80"
+  },
+  "skills": [
+    { "name": "Node.js", "level": 90 },
+    { "name": "Express / NestJS", "level": 85 }
+  ],
+  "services": [
+    { "title": "REST & GraphQL APIs", "desc": "Design scalable APIs." }
+  ],
+  "experiences": [
+    { "company": "Drify", "role": "Backend Engineer", "period": "2023 — Present", "summary": "Backends & IoT" }
+  ],
+  "education": [
+    { "school": "JIM (MCA 2021)", "degree": "MCA", "period": "2019 — 2021" }
+  ],
+  "certifications": [
+    { "name": "AWS Certified Cloud Practitioner (in-progress)" }
+  ],
+  "projects": [
+    { "slug": "drify", "title": "DRIFY", "desc": "Delivery app", "tags": ["Node","React","AWS"] }
+  ],
+  "posts": [
+    { "slug": "securing-node-apis", "title": "Securing Node APIs in Production", "date": "2025-08-01", "html": "<p>Helmet, rate limits…</p>" }
+  ]
+}

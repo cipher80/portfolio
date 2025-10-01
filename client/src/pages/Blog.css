@@ -1,0 +1,86 @@
+:root {
+  --bg: #0b1020;
+  --panel: #0f172a;
+  --text: #e5e7eb;
+  --muted: #9ca3af;
+  --line: #1f2937;
+  --accent: #6366f1;
+}
+
+.blog-wrap { max-width: 880px; margin: 0 auto; padding: 1.25rem 1rem; }
+
+.post-card {
+  background: radial-gradient(1100px 420px at 10% -10%, rgba(99,102,241,.12), transparent 40%),
+              var(--panel);
+  border: 1px solid rgba(255,255,255,.08);
+  border-radius: 14px;
+  padding: 1rem;
+}
+
+.post-meta {
+  display: flex; gap: .8rem; flex-wrap: wrap; color: var(--muted); font-size: .95rem;
+}
+.row { display: inline-flex; gap: .4rem; align-items: center; }
+
+svg.icon, .icon svg { width: 18px; height: 18px; flex: 0 0 18px; }
+
+.post-title {
+  margin: .5rem 0 0;
+  font-size: clamp(1.6rem, 3.8vw, 2.1rem);
+  font-weight: 800;
+  letter-spacing: .2px;
+}
+
+.tldr {
+  margin-top: .6rem;
+  background: rgba(99,102,241,.1);
+  border: 1px solid rgba(99,102,241,.25);
+  padding: .7rem .8rem;
+  border-radius: 10px;
+  color: #dbeafe;
+}
+
+.cover { margin-top: .8rem; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,.08); }
+.cover img { display: block; width: 100%; height: auto; }
+
+.tags { margin-top: .7rem; display: flex; gap: .4rem; flex-wrap: wrap; }
+.tag {
+  display: inline-flex; align-items: center; gap: .35rem;
+  background: rgba(255,255,255,.06);
+  border: 1px solid rgba(255,255,255,.12);
+  padding: .35rem .6rem; border-radius: 999px; font-size: .9rem; color: #d1d5db;
+}
+
+.prose {
+  margin-top: 1rem; color: var(--text); line-height: 1.7;
+}
+.prose h2 { margin: 1rem 0 .3rem; font-size: 1.25rem; font-weight: 700; }
+.prose h3 { margin: .9rem 0 .3rem; font-size: 1.1rem; font-weight: 700; }
+.prose p { margin: .5rem 0 .5rem; }
+.prose ul, .prose ol { margin: .5rem 0 .5rem 1.2rem; }
+.prose code {
+  background: rgba(99,102,241,.12);
+  border: 1px solid rgba(99,102,241,.25);
+  padding: .05rem .35rem; border-radius: 6px;
+}
+.prose pre {
+  background: #0b1020;
+  border: 1px solid rgba(255,255,255,.08);
+  padding: .8rem; border-radius: 10px; overflow: auto;
+}
+.prose pre code { background: transparent; border: 0; padding: 0; }
+
+.callout {
+  margin: .6rem 0;
+  background: rgba(56,189,248,.12);
+  border: 1px solid rgba(56,189,248,.32);
+  color: #cffafe;
+  padding: .7rem .8rem; border-radius: 10px;
+}
+
+.post-nav { display: flex; justify-content: space-between; margin-top: .9rem; }
+.back {
+  display: inline-flex; align-items: center; gap: .4rem;
+  color: #c7d2fe; text-underline-offset: 3px; text-decoration: underline;
+}
+.back:hover { color: #fff; }
