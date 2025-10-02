@@ -49,7 +49,7 @@ export default function About() {
         <div className="a-header">
           <img
             className="a-avatar"
-            src="/sandeep.jpeg"
+            src="src/sandeep.jpeg"
             alt="Sandeep Tiwari"
             onError={(e) => (e.currentTarget.style.display = "none")}
           />
